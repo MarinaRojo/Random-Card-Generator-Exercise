@@ -14,6 +14,8 @@ window.onload = function() {
     number = "Q";
   } else if (number == 12) {
     number = "K";
+  } else if (number == 1) {
+    number = "A";
   }
   card.innerHTML = `<div class="${suit} text-start">${suit}</div>
                   <div class="number text-center">${number}</div>
