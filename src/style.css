@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  width: 260px;
+  height: 400px;
+  padding: 1;
+}
+.number {
+  height: 200px;
+  font-size: 130px;
+  padding: 0em;
+}
+.♦,
+.♥,
+.♠,
+.♣ {
+  height: 80px;
+  font-size: 70px;
+}
+
+.♦,
+.♥ {
+  color: red;
+}
